@@ -51,8 +51,8 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Blog
 1. Kids Activity App 
 1. Soduku
-1. MediaFeed
+1. [MediaFeed](https://github.com/alexpaul/AVFoundation-MediaFeed)
 1. Stock app
-1. National Dish
+1. [National Dish](https://github.com/alexpaul/NationalDish)
 1. Venues
 
