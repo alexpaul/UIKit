@@ -26,5 +26,25 @@ iOS.
     * UISlider
     * UIStepper 
     * UISwitch 
+  * Text Views 
+    * UILabel
+    * UITextField
+  * Search Field 
+    * UISearchTextField - introduced in iOS 13
+    * UISearchToken - introduced in iOS 13
+  * Visual Effects 
+    * UIVisualEffect 
+    * UIVisualEffectView 
+    * UIVibrancyEffect 
+    * UIBlurEffect 
+  * Bars 
+    * UIBarItem 
+    * UIBarButtonItem 
+    * UIBarButtonItemGroup
+    * UINavigationBar 
+    * UISearchBar 
+    * UIToolbar 
+    * UITabBar 
+    * UITabBarItem 
 
 
