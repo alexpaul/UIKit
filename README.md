@@ -43,7 +43,7 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Drawing app
 1. TV Shows
 1. Currency Converter 
-1. Marketplace
+1. [Marketplace](https://github.com/alexpaul/Firebase-Demo)
 1. Fitness app 
 1. Top Stories
 1. Flash Cards
