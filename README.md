@@ -23,6 +23,8 @@ iOS development using UIKit.
 
 # Projects
 
+To practice your iOS skills you can choose to work on any of the recommended projects below. 
+
 1. Three Card Monty 
 1. Black Jack 
 1. Tip Calculator 
