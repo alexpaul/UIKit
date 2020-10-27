@@ -8,6 +8,7 @@ iOS development using UIKit.
 * Computer running macOS. 
 * [Xcode](https://developer.apple.com/xcode/).
 * iOS device if testing camera and ARKit features. 
+* $99 annual Apple developer account if planning on shipping your own applications to the Apple App Store.
 
 ## Code structure of a UIKit app using MVC architecture. 
 
