@@ -21,3 +21,21 @@ iOS development using UIKit.
 1. [Windows and Screens]()
 1. [Appearance Customization]()
 
+# Projects
+
+1. Three Card Monty 
+1. Black Jack 
+1. Tip Calculator 
+1. Tic Tac Toe 
+1. Hangman
+1. Contacts 
+1. To do list
+1. Recipes
+1. BestSellers
+1. TV Shows
+1. Marketplace
+1. Blog
+1. Soduku
+1. MediaFeed
+1. Venues
+
