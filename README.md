@@ -7,6 +7,7 @@ iOS development using UIKit.
 * Familiarity with [Swift Fundamentals](https://github.com/alexpaul/Swift-Fundamentals). 
 * Computer running macOS. 
 * [Xcode](https://developer.apple.com/xcode/).
+* iOS device if testing camera and ARKit features. 
 
 ## Code structure of a UIKit app using MVC architecture. 
 
