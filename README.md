@@ -37,6 +37,7 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Timer
 1. BestSellers
 1. Photo Journal 
+1. Budget app
 1. Podcast Player
 1. Weather app 
 1. Drawing app
