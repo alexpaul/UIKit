@@ -51,7 +51,7 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Fitness app 
 1. [Top Stories](https://github.com/alexpaul/TopStories)
 1. Flash Cards
-1. Grocery List 
+1. [Shopping List](https://github.com/alexpaul/Diffable-Data-Source/tree/master/ShoppingList)
 1. Blog
 1. [Scheduler](https://github.com/alexpaul/Scheduler-Custom-Delegation-Tab-Controller)
 1. Kids Activity App 
@@ -59,4 +59,4 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Stock app
 1. [National Dish](https://github.com/alexpaul/NationalDish)
 1. Venues
-
+1. [Online Photo Search](https://github.com/alexpaul/Compositional-Layout/tree/master/Compositional-Layout-Combine)
