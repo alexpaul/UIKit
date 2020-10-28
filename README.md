@@ -23,6 +23,19 @@ iOS development using UIKit.
 1. Windows and Screens
 1. Appearance Customization
 
+# Frameworks and APIs 
+
+* UIKit 
+* Core Location 
+* URLSession
+* JSONDecoder / JSONEncoder
+* MapKit 
+* UNUserNotificationCenter
+* FileManager 
+* Core Data 
+* Combine
+* AVFoundation 
+
 # Projects
 
 To practice your iOS skills you can choose to work on any of the recommended projects below. 
