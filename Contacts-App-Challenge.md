@@ -2,8 +2,7 @@
 
 ## Level 1 
 
-<details>
-   <summary>Contacts Dictionary</summary> 
+Contacts Dictionary 
 
 ```swift 
 let contactsDict = [03364152046: ("Christin", "Böttger"),
@@ -28,8 +27,6 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
                     00499228235: ("Marissa", "Rode"),
 ]
 ```
-
-</details> 
 
 1. Use the contacts dictionary provided to create an array of `Contact`'s. 
 2. Show the list of contacts on a table view. 
