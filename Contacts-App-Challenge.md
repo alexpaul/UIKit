@@ -52,7 +52,7 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 * Custom Delegation, Unwind Segue
 * UIImagePickerController
 
-Build a Contacts app that does the following: 
+#### Build a Contacts app that does the following:
 
 1. User should be able to add new contact. 
 2. User should be able to add at minimum the following: first name, last name, photo, a phone number and email. 
