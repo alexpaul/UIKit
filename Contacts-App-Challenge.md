@@ -2,7 +2,7 @@
 
 ## Level 1 
 
-#### Prerequisties 
+#### Review topics 
 
 * Arrays
 * Dictionaries 
@@ -48,7 +48,7 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 
 ## Level 2 
 
-#### Prerequisties 
+#### Review topics
 
 * Arrays
 * Dictionaries 
