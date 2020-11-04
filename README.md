@@ -36,21 +36,17 @@ iOS development using UIKit.
 * Combine
 * AVFoundation 
 
-# Projects
+# Challenges 
 
 To practice your iOS skills you can choose to work on any of the recommended projects below. 
 
+1. Contacts 
 1. Three Card Monty 
 1. Black Jack 
 1. Tip Calculator 
 1. Tic Tac Toe 
 1. Hangman
-1. [Astronomy Photos](https://github.com/alexpaul/AstronomyPhotos)
-1. Contacts 
 1. Trivia Game
-1. [Animations](https://github.com/alexpaul/UIKit-Animations)
-1. To do list
-1. [Recipe Search](https://github.com/alexpaul/RecipeSearch-Using-Basic-Auth)
 1. Timer
 1. BestSellers
 1. Photo Journal 
@@ -60,16 +56,26 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Drawing app
 1. TV Shows
 1. Currency Converter 
-1. [Marketplace](https://github.com/alexpaul/Firebase-Demo)
-1. Fitness app 
-1. [Top Stories](https://github.com/alexpaul/TopStories)
-1. Flash Cards
-1. [Shopping List](https://github.com/alexpaul/Diffable-Data-Source/tree/master/ShoppingList)
+1. To do list
+1. Venues
 1. Blog
-1. [Scheduler](https://github.com/alexpaul/Scheduler-Custom-Delegation-Tab-Controller)
+1. Flash Cards
 1. Kids Activity App 
+1. Fitness app 
+
+
+# Completed Projects 
+
+Feel free to review those or re-create for practice.
+
+1. [Astronomy Photos](https://github.com/alexpaul/AstronomyPhotos)
+1. [Animations](https://github.com/alexpaul/UIKit-Animations)
+1. [Recipe Search](https://github.com/alexpaul/RecipeSearch-Using-Basic-Auth)
+1. [Marketplace](https://github.com/alexpaul/Firebase-Demo)
+1. [Top Stories](https://github.com/alexpaul/TopStories)
+1. [Shopping List](https://github.com/alexpaul/Diffable-Data-Source/tree/master/ShoppingList)
+1. [Scheduler](https://github.com/alexpaul/Scheduler-Custom-Delegation-Tab-Controller)
 1. [MediaFeed](https://github.com/alexpaul/AVFoundation-MediaFeed)
 1. Stock app
 1. [National Dish](https://github.com/alexpaul/NationalDish)
-1. Venues
 1. [Online Photo Search](https://github.com/alexpaul/Compositional-Layout/tree/master/Compositional-Layout-Combine)
