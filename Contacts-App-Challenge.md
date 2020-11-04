@@ -2,6 +2,13 @@
 
 ## Level 1 
 
+#### Prerequisties 
+
+* Arrays
+* Dictionaries 
+* Working with UIViewController's
+* UITableView and UITableViewDataSource
+
 Contacts Dictionary 
 
 ```swift 
@@ -35,6 +42,15 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
    2. Show the contact's phone number in the detail text label
 
 ## Level 2 
+
+#### Prerequisties 
+
+* UITableView
+* UITableViewDataSource
+* UITableViewDelegate
+* Segueing in iOS 
+* Custom Delegation, Unwind Segue
+* UIImagePickerController
 
 Build a Contacts app that does the following: 
 
