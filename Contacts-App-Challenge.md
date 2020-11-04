@@ -62,7 +62,7 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 * UITableViewDelegate
 * Segueing in iOS 
 * Custom Delegation, Unwind Segue
-* UIImagePickerController
+* UIImagePickerController, UIImagePickerControllerDelegate
 
 #### Build a Contacts app that does the following:
 
