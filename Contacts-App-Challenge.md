@@ -29,7 +29,7 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 ```
 
 1. Use the contacts dictionary provided to create an array of `Contact` objects. 
-2. Show the list of contacts on a table view. 
+2. Show the list of contacts in a table view. 
 2. Use the built-in table view cell's subtitle option:
    1. Show the contact's first and last name on the cell's text label. Create a computed property in your Contact struct to return `fullname`.
    2. Show the contact's phone number in the detail text label
