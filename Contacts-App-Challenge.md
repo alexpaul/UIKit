@@ -6,8 +6,13 @@
 
 * Arrays
 * Dictionaries 
-* Working with UIViewController's
-* UITableView and UITableViewDataSource
+* Structs and Classes
+* Properties: computed properties
+* UIViewController
+* Storyboard and Interface Builder
+* UITableView
+* UITableViewDataSource
+* UITableViewCell
 
 Contacts Dictionary 
 
@@ -45,8 +50,15 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 
 #### Prerequisties 
 
-* UITableView
+* Arrays
+* Dictionaries 
+* Structs and Classes
+* Properties: computed properties
+* UIViewController
+* Storyboard and Interface Builder
+* UITableView 
 * UITableViewDataSource
+* UITableViewCell
 * UITableViewDelegate
 * Segueing in iOS 
 * Custom Delegation, Unwind Segue
