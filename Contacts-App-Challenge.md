@@ -3,6 +3,7 @@
 ## Level 1 
 
 1. Using the contacts dictionary provided populate a table view. 
+2. Use a generic table view detal cell to show the contact's first and last name and the phone number. 
 
 ## Level 2 
 
