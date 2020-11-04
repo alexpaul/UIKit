@@ -3,7 +3,7 @@
 ## Level 1 
 
 <details>
-   <summary>Contact Dictionary</summary> 
+   <summary>Contacts Dictionary</summary> 
 
 ```swift 
 let contactsDict = [03364152046: ("Christin", "Böttger"),
