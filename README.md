@@ -62,6 +62,7 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Flash Cards
 1. Kids Activity App 
 1. Fitness app 
+1. Stock app
 
 
 # Completed Projects 
@@ -76,6 +77,5 @@ Feel free to review those or re-create for practice.
 1. [Shopping List](https://github.com/alexpaul/Diffable-Data-Source/tree/master/ShoppingList)
 1. [Scheduler](https://github.com/alexpaul/Scheduler-Custom-Delegation-Tab-Controller)
 1. [MediaFeed](https://github.com/alexpaul/AVFoundation-MediaFeed)
-1. Stock app
 1. [National Dish](https://github.com/alexpaul/NationalDish)
 1. [Online Photo Search](https://github.com/alexpaul/Compositional-Layout/tree/master/Compositional-Layout-Combine)
