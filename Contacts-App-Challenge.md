@@ -2,9 +2,10 @@
 
 ## Level 1 
 
-1. Using the contacts dictionary provided populate a table view. 
+1. Use the contacts dictionary provided to create an array of `Contact`'s. 
+2. Show the list of contacts on a table view. 
 2. Use a generic table view subtitle cell:
-   1. Show the contact's first and last name in the cell text label 
+   1. Show the contact's first and last name on the cell's text label. Create a computed property in your Contact struct to return `fullname`.
    2. Show the contact's phone number in the detail text label
 
 ## Level 2 
