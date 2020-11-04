@@ -40,3 +40,4 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 2. User should be able to add at minimum the following: first name, last name, photo, a phone number and email. 
 3. User should be able to click on a contact and segue to a detail screen.
 4. User should be able to click on a phone number in the detail screen to place a phone call.
+5. Contacts data should be able to persist throught app launches.
