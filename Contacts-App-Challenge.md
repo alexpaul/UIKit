@@ -42,4 +42,6 @@ Build a Contacts app that does the following:
 2. User should be able to add at minimum the following: first name, last name, photo, a phone number and email. 
 3. User should be able to click on a contact and segue to a detail screen.
 4. User should be able to click on a phone number in the detail screen to place a phone call.
-5. Contacts data should be able to persist throught app launches.
+5. User should be able to delete a contact. 
+6. Contacts data should persist through app launches.
+
