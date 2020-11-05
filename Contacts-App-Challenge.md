@@ -45,6 +45,10 @@ let contactsDict = [03364152046: ("Christin", "Böttger"),
 2. Use the built-in table view cell's subtitle option:
    1. Show the contact's first and last name on the cell's text label. Create a computed property in your Contact struct to return `fullname`.
    2. Show the contact's phone number in the detail text label
+   
+Extra: 
+
+1. Add a unit test to verify you have 20 contacts.
 
 ## Level 2 
 
