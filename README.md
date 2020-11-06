@@ -63,7 +63,7 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 1. Kids Activity App 
 1. Fitness app 
 1. Stock app
-1. [iOS Assessment]()
+1. [iOS Assessment](https://github.com/alexpaul/iOS-UIKit/blob/main/iOS-Assessment.md)
 
 
 # Completed Projects 
