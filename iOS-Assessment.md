@@ -26,11 +26,13 @@ This assessment covers the following topics in iOS:
 
 ## Assessment 
 
-During COVID we all look to enjoy the outdoors when we can and want to help our local restaurants while doing so. In this application you will be building an outdoor dining app. The app will perform the following: 
+During COVID we all look to enjoy the outdoors when we can and want to help our local restaurants while doing so. In this application you will be building an outdoor dining app. 
 
-`https://api.yelp.com/v3/businesses/search?term=coffee&location=10023`
+Yelp API `https://api.yelp.com/v3/businesses/search?term=coffee&location=10023`
 
-- [ ] As a user I can search for restaurants around me. 
+The app will perform the following: 
+
+- [ ] As a user I can search for restaurants around me, or by provided location. 
 - [ ] As a user I am able to see restaurants on a map. 
-- [ ] As a user I can tag a restaurant as providing outdoor dining. 
-- [ ] AS a user I can view all my tagged restaurnats in a Profile page. 
+- [ ] As a user I can tag a restaurant as providing outdoor dining options. 
+- [ ] As a user I can view all my tagged restaurnats in a Profile page. 
