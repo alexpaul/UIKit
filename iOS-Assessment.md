@@ -17,6 +17,7 @@ This assessment covers the following topics in iOS:
 | MVC Architecture | Clean MVC architecture, avoid M(assive) V(iew) C(controllers) by separating application / business logic |
 | DRY | Use of function, do not repeat yourself |
 | Unit Test | Unit test your functions |
+| Animation | Subtle animations where it will deliver great user feedback |
 | Naming Conventions | Adhere to good naming conventions e.g s`truct person` should be `struct Person` |
 | Memory Managment | Break retain cycles where needed e.g `[weak self]` if capturing `self` by an unowned object |
 | Encapsulation | Use custom initializers and dependency injection to pass data and marking your properties private to avoid mutating from outside objects |
