@@ -63,10 +63,11 @@ Extra:
 * UITableView 
 * UITableViewDataSource or UITableViewDiffableDataSource
 * UITableViewCell
+* UIImageView
 * UITableViewDelegate
-* Segueing in iOS 
-* Custom Protocol / Delegation, Unwind Segue
-* UIImagePickerController, UIImagePickerControllerDelegate
+* Segueing in iOS
+* Custom Protocol / Delegation, Unwind Segue, Completion Handler
+* UIImagePickerController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
 
 #### Build a Contacts app that does the following:
 
