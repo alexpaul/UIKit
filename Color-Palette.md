@@ -13,7 +13,7 @@
 * Data persistence
 * UICollectionViewCell
 
-Build a color palette app that utilizing the [UIColorWell](https://developer.apple.com/documentation/uikit/uicolorwell) to create color swatches. Those color swatches will be persisted to the iOS device. 
+Build a color palette app that utilizes [UIColorWell](https://developer.apple.com/documentation/uikit/uicolorwell) to create color swatches. Those color swatches will be persisted to the iOS device. 
 
 - [ ] User should be able to create a color swatch. 
 - [ ] User should be able a color swatch with the minimum properties: project name and color. 
