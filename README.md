@@ -42,12 +42,12 @@ To practice your iOS skills you can choose to work on any of the recommended pro
 
 1. [Contacts app](https://github.com/alexpaul/iOS-UIKit/blob/main/Contacts-App-Challenge.md)
 1. [Color Pallette](https://github.com/alexpaul/iOS-UIKit/blob/main/Color-Pallette.md)
-1. Three Card Monty 
-1. Black Jack 
 1. Tip Calculator 
 1. Tic Tac Toe 
 1. Hangman
 1. Trivia Game
+1. Three Card Monty 
+1. Black Jack 
 1. Timer
 1. BestSellers
 1. Photo Journal 
