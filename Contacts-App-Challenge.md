@@ -68,6 +68,7 @@ Extra:
 * Segueing in iOS
 * Custom Protocol / Delegation, Unwind Segue, Completion Handler
 * UIImagePickerController, UIImagePickerControllerDelegate, UINavigationControllerDelegate
+* InputAccessoryView
 
 #### Build a Contacts app that does the following:
 
