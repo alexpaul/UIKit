@@ -8,7 +8,9 @@
 * UICollectionViewDataSource or UICollectionViewDiffableDataSource
 * UICollectionViewDelegate
 * Auto Layout
+* UITextField, UITextFeildDelegate
 * UILabel
+* UIButton
 * Segue
 * Data persistence
 * UICollectionViewCell
