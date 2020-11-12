@@ -35,4 +35,4 @@ The app will perform the following:
 - [ ] As a user I can search for restaurants around me, or by provided location. 
 - [ ] As a user I am able to see restaurants on a map. 
 - [ ] As a user I can tag a restaurant as providing outdoor dining options. 
-- [ ] As a user I can view all my tagged restaurnats in a Profile page. 
+- [ ] As a user I can view all my tagged restaurants in a Profile page. 
