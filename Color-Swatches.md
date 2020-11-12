@@ -20,3 +20,5 @@ Build a color swatches app that utilizes [UIColorWell](https://developer.apple.c
 - [ ] User should be able to view a list of all their created color swatches in a collection view. 
 - [ ] User should be able to segue to a detail view to view a larger color swatch. 
 - [ ] All user generated swatches should persist to the device.
+
+![color swatches app](https://user-images.githubusercontent.com/1819208/98969732-2742e580-24dd-11eb-98e6-80bfd5e4128e.gif)
