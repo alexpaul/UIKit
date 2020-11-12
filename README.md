@@ -41,7 +41,7 @@ iOS development using UIKit.
 To practice your iOS skills you can choose to work on any of the recommended projects below. 
 
 1. [Contacts app](https://github.com/alexpaul/iOS-UIKit/blob/main/Contacts-App-Challenge.md)
-1. [Color Palette](https://github.com/alexpaul/iOS-UIKit/blob/main/Color-Swatches.md)
+1. [Color Swatches](https://github.com/alexpaul/iOS-UIKit/blob/main/Color-Swatches.md)
 1. Tip Calculator 
 1. Tic Tac Toe 
 1. Hangman
