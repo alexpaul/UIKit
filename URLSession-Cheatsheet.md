@@ -19,6 +19,8 @@
 * Asynchronous
 * Result 
 * @escaping closures 
+* capture list e.g [weak self], [unowned self]
+* weak vs unowned 
 
 ## Using a closure to capture the `Result` of the asynchronous network request 
 
