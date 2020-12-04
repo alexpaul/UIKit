@@ -93,7 +93,7 @@ struct CountrySummary: Codable {
 }
 ```
 
-## The `CodingKeys` built-in `enum` type allows us to chang JSON property names to our own custom names
+## The `CodingKeys` built-in `enum` type allows us to change JSON property names to our own custom names
 
 In this example we change `Countries` to a more Swift naming conventional name `countries`. 
 
