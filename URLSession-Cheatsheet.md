@@ -2,6 +2,8 @@
 
 ## Using a closure to capture the `Result` of the asynchronous network request 
 
+`Result` type is an `enum` type that has two arguments, a `success` state and an `failure` state. 
+
 ```swift 
 func fetchWebData(completion: @escaping (Result<[ModelObject], Error>) -> ()) {
  // netowrking code here
@@ -9,6 +11,8 @@ func fetchWebData(completion: @escaping (Result<[ModelObject], Error>) -> ()) {
 ```
 
 ## Perform a GET request using `URLSession`
+
+`URLSession.shared` is a singleton instance on `URLSession` with basic networking configurations. 
 
 ```swift 
 let dataTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
