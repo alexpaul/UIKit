@@ -17,6 +17,16 @@ let dataTask = URLSession.shared.dataTask(with: url) { (data, response, error) i
 dataTask.resume()
 ```
 
+## Check that the `HTTPURLResponse` status code is within the valid range of `200...299` indicating a successful response
+
+```swift 
+guard let httpResponse = response as? HTTPURLResponse,
+      (200...299).contains(httpResponse.statusCode) else {
+  print("bad status code")
+  return
+}
+```
+
 ## Converting `JSON` data to Swift objects 
 
 ```swift 
