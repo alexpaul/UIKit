@@ -68,6 +68,46 @@ do {
 }
 ```
 
+## Using the `Codable` protocol to parse JSON to Swift model(s) 
+
+```swift 
+struct CovidCountriesWrapper: Codable {
+  let countries: [CountrySummary]
+  
+  // CodingKeys allows us to rename properties
+  enum CodingKeys: String, CodingKey {
+    case countries = "Countries"
+  }
+}
+
+struct CountrySummary: Codable {
+  let country: String
+  let totalConfirmed: Int
+  let totalRecovered: Int
+  
+  enum CodingKeys: String, CodingKey {
+    case country = "Country"
+    case totalConfirmed = "TotalConfirmed"
+    case totalRecovered = "TotalRecovered"
+  }
+}
+```
+
+## The `CodingKeys` built-in `enum` type allows us to chang JSON property names to our own custom names
+
+In this example we change `Countries` to a more Swift naming conventional name `countries`. 
+
+```swift 
+struct CovidCountriesWrapper: Codable {
+  let countries: [CountrySummary]
+  
+  // CodingKeys allows us to rename properties
+  enum CodingKeys: String, CodingKey {
+    case countries = "Countries"
+  }
+}
+```
+
 ## Completed API Client to fetch web data 
 
 ```swift 
