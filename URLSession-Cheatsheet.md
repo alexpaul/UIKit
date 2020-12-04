@@ -14,6 +14,7 @@
 * HTTP methods: GET, POST, PUT, DELETE
 * Asynchronous
 * Result 
+* @escaping closures 
 
 ## Using a closure to capture the `Result` of the asynchronous network request 
 
