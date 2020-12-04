@@ -1,5 +1,20 @@
 # URLSession Cheatsheet
 
+## Vocabulary 
+
+* URLSession 
+* JSONDecoder, JSONEncoder 
+* URL 
+* URLRequest 
+* URLResponse
+* HTTPURLResponse
+* Codable
+* Encodable 
+* Decodable 
+* HTTP methods: GET, POST, PUT, DELETE
+* Asynchronous
+* Result 
+
 ## Using a closure to capture the `Result` of the asynchronous network request 
 
 `Result` type is an `enum` type that has two arguments, a `success` state and an `failure` state. 
