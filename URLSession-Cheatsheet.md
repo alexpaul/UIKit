@@ -3,7 +3,10 @@
 ## Vocabulary 
 
 * JSON
+* endpoint 
+* RESTFul API
 * URLSession 
+* URLSession.shared
 * JSONDecoder, JSONEncoder 
 * URL 
 * URLRequest 
