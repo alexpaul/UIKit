@@ -59,7 +59,8 @@ guard let httpResponse = response as? HTTPURLResponse,
 ```swift 
 do {
   let topLevelModel = try JSONDecoder().decode(TopLevelModel.self, from: jsonData)
-  completion(.success(topLevelModel)
+  let modelObjects = topLevelModel.modelObjects
+  completion(.success(modelObjects)
 } catch {
   // decoding error
   completion(.failure(error))
