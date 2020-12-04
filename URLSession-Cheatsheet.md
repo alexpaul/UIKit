@@ -2,6 +2,7 @@
 
 ## Vocabulary 
 
+* JSON
 * URLSession 
 * JSONDecoder, JSONEncoder 
 * URL 
