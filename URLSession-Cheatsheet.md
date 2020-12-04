@@ -16,3 +16,15 @@ let dataTask = URLSession.shared.dataTask(with: url) { (data, response, error) i
 }
 dataTask.resume()
 ```
+
+## Converting `JSON` data to Swift objects 
+
+```swift 
+do {
+  let topLevelModel = try JSONDecoder().decode(TopLevelModelself, from: jsonData)
+  completion(.success(topLevelModel)
+} catch {
+  // decoding error
+  completion(.failure(error))
+}
+```
