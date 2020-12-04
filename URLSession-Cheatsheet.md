@@ -12,6 +12,7 @@
 * URLRequest 
 * URLResponse
 * HTTPURLResponse
+* Status Code
 * Data 
 * Codable
 * Encodable 
