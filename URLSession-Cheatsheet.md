@@ -62,7 +62,7 @@ do {
       if let jsonData = data {
         // convert data to our swift model
         do {
-          let topLevelModel = try JSONDecoder().decode(TopLevelModelself.self, from: jsonData).countries
+          let topLevelModel = try JSONDecoder().decode(TopLevelModel.self, from: jsonData).countries
           completion(.success(topLevelModel))
         } catch {
           // decoding error
