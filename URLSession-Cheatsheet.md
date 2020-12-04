@@ -21,7 +21,7 @@ dataTask.resume()
 
 ```swift 
 do {
-  let topLevelModel = try JSONDecoder().decode(TopLevelModelself, from: jsonData)
+  let topLevelModel = try JSONDecoder().decode(TopLevelModel.self, from: jsonData)
   completion(.success(topLevelModel)
 } catch {
   // decoding error
