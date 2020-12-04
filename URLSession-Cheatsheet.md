@@ -8,7 +8,7 @@ func fetchWebData(completion: @escaping (Result<[ModelObject], Error>) -> ()) {
 }
 ```
 
-## Perform a GET request 
+## Perform a GET request using `URLSession`
 
 ```swift 
 let dataTask = URLSession.shared.dataTask(with: url) { (data, response, error) in
