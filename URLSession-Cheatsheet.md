@@ -11,7 +11,7 @@
 * Codable
 * Encodable 
 * Decodable 
-* HTTP methods: GET, POST, PUT, DELETE
+* HTTP methods: GET, POST, PUT, DELETE, PATCH, UPDATE
 * Asynchronous
 * Result 
 * @escaping closures 
