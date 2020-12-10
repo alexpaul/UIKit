@@ -18,3 +18,4 @@
 Bonus: 
 1. Add a search bar to the view controller. 
 2. The user should be able to search by country name e.g `Saint Lucia`
+3. Add a Table View Header to show Global Statistics of Covid cases.
