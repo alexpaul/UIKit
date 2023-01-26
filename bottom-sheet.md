@@ -2,11 +2,11 @@
 
 > Available in iOS 15+
 
-![Screen Shot 2023-01-26 at 10 44 05 AM](https://user-images.githubusercontent.com/1819208/214881851-dab435fa-90fb-4499-ab83-70ba6abc4c7c.png)
+![Screen Shot 2023-01-26 at 2 11 38 PM](https://user-images.githubusercontent.com/1819208/214928100-6a05c0bc-8fa8-4975-bf83-60dbf048cbf5.png)
 
-![Screen Shot 2023-01-26 at 10 44 14 AM](https://user-images.githubusercontent.com/1819208/214881876-74cfa2cf-d113-4393-ac6f-dbda3343e90e.png)
+![Screen Shot 2023-01-26 at 2 11 50 PM](https://user-images.githubusercontent.com/1819208/214928117-a51456d3-a96c-4834-9525-fb1f54bc0a8f.png)
 
-![Screen Shot 2023-01-26 at 10 44 32 AM](https://user-images.githubusercontent.com/1819208/214881900-b21cd9a6-acb3-48ce-89ea-a4f424571cd5.png)
+![Screen Shot 2023-01-26 at 2 12 10 PM](https://user-images.githubusercontent.com/1819208/214928140-8ffe9c92-ec77-4886-9303-01d76ec9168e.png)
 
 try? it out 
 
