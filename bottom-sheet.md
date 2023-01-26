@@ -81,27 +81,42 @@ final class BottomSheetDetailController: UIHostingController<BottomSheetView> {}
 import SwiftUI
 
 struct BottomSheetView: View {
+    @Environment(\.dismiss) var dismiss
+
     private let names = [
         "Combine", "SwiftUI", "Testing", "UIKit",
         "Swift Package", "Swift Concurrency", "Accessibility", "Xcode"
     ]
 
     var body: some View {
-        ScrollView(showsIndicators: false) {
-            VStack(alignment: .center, spacing: 20) {
-                Text("SwiftUI View hosted by UIKit **`UISheetPresentationController`**")
-                    .font(.title3)
-                    .multilineTextAlignment(.center)
-                Image("swiftui-logo")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                ForEach(names, id: \.self) { name in
-                    Text(name)
+        VStack {
+            ScrollView(showsIndicators: false) {
+                VStack(alignment: .center, spacing: 20) {
+                    Text("SwiftUI View hosted by UIKit **`UISheetPresentationController`**")
+                        .font(.title3)
+                        .multilineTextAlignment(.center)
+                    Image("swiftui-logo")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                    ForEach(names, id: \.self) { name in
+                        Text(name)
+                    }
                 }
+                .padding(.top, 40)
             }
-            .padding(.top, 40)
+            Button(action: dismissView) {
+                Text("Dismiss")
+                    .font(.title3)
+                    .bold()
+                    .foregroundColor(.white)
+                    .frame(maxWidth: .infinity)
+            }
+            .padding(.top, 20)
+            .background(.blue)
         }
     }
+
+    private func dismissView() { dismiss() }
 }
 
 struct BottomSheetView_Previews: PreviewProvider {
