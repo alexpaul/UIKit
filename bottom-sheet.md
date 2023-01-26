@@ -1,4 +1,4 @@
-# Presenting a bottom sheet using `UISheetPresentationController`
+# Presenting a bottom sheet in UIKit using `UISheetPresentationController`
 
 ![Screen Shot 2023-01-26 at 10 44 05 AM](https://user-images.githubusercontent.com/1819208/214881851-dab435fa-90fb-4499-ab83-70ba6abc4c7c.png)
 
