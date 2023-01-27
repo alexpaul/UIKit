@@ -4,7 +4,7 @@
 
 ## Files 
 
-* `BottomSheetViewController`: the main view controller
+* `BottomSheetViewController`: the main view controller responsible for presenting the sheet
 * `BottomSheetView`: Presented bottom sheet written in SwiftUI 
 * `BottomSheetDetailController`: hosts the SwiftUI View
 
