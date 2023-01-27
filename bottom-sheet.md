@@ -27,22 +27,28 @@ try? it out
 import UIKit
 
 final class BottomSheetViewController: UIViewController {
-
     private lazy var presentationButton: UIButton = {
-        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 300, height: 44))
+        let button = UIButton()
         button.addTarget(self, action: #selector(presentSheet), for: .touchUpInside)
         button.setTitle("Preset Bottom Sheet using UIKit", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.center = view.center
         return button
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         view.backgroundColor = .orange
-
         view.addSubview(presentationButton)
+    }
+
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+
+        presentationButton.translatesAutoresizingMaskIntoConstraints = false
+        NSLayoutConstraint.activate([
+            presentationButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            presentationButton.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -50,23 +56,43 @@ final class BottomSheetViewController: UIViewController {
     }
 
     @objc func presentSheet() {
+        // 1
+        // Create an instance of the view controller that will be presented
+        // in this case it host a SwiftUI View
         let detailVC = BottomSheetDetailController(rootView: BottomSheetView())
 
-        // 1
-        // `sheetPresentationController` is available as of iOS 15
-        guard let sheet = detailVC.sheetPresentationController else {
+        // 2
+        // Support `popover` for iPad
+        detailVC.modalPresentationStyle = .popover
+
+        // 3
+        // Get the `popoverPresentationController` from the view controller
+        guard let popover = detailVC.popoverPresentationController else {
             return
         }
 
-        // 2
-        // Customize the `UISheetPresentationController` here
+        // 4
+        // Configure the `popover` instance
+        popover.permittedArrowDirections = [.up]
+        popover.sourceView = presentationButton
 
-        // 3
+        // 5
+        // `adaptiveSheetPresentationController` is available as of iOS 15
+        let sheet = popover.adaptiveSheetPresentationController
+
+        // 6
+        // Configure the `UISheetPresentationController` here
+        sheet.prefersEdgeAttachedInCompactHeight = true
+        sheet.widthFollowsPreferredContentSizeWhenEdgeAttached = true
+        sheet.preferredCornerRadius = 24.0
+        sheet.prefersGrabberVisible = true
+
+        // 7
         // [UISheetPresentationController.Detents], e.g .medium(), .large()
         // if `.detents` is not set a full sheet will be presented
         sheet.detents = [.medium(), .large()]
 
-        // 4
+        // 8
         // Present the sheet
         present(detailVC, animated: true)
     }
