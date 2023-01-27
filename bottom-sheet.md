@@ -2,6 +2,12 @@
 
 > Available in iOS 15+
 
+## Files 
+
+* `BottomSheetViewController`: the main view controller
+* `BottomSheetView`: Presented bottom sheet written in SwiftUI 
+* `BottomSheetDetailController`: hosts the SwiftUI View
+
 ![Screen Shot 2023-01-26 at 2 11 38 PM](https://user-images.githubusercontent.com/1819208/214928100-6a05c0bc-8fa8-4975-bf83-60dbf048cbf5.png)
 
 ![Screen Shot 2023-01-26 at 2 11 50 PM](https://user-images.githubusercontent.com/1819208/214928117-a51456d3-a96c-4834-9525-fb1f54bc0a8f.png)
