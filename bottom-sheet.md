@@ -131,3 +131,10 @@ struct BottomSheetView_Previews: PreviewProvider {
     }
 }
 ```
+
+***
+
+## Resources 
+
+* [Apple docs: UISheetPresentationController](https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller)
+* [Customize and Resize Sheets in UIKit - WWDC21](https://developer.apple.com/wwdc21/10063)
