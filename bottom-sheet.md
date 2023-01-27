@@ -119,6 +119,7 @@ import SwiftUI
 
 struct BottomSheetView: View {
     @Environment(\.dismiss) var dismiss
+    @Environment(\.verticalSizeClass) var verticalSizeClass
 
     private let names = [
         "Combine", "SwiftUI", "Testing", "UIKit",
@@ -130,10 +131,11 @@ struct BottomSheetView: View {
             ScrollView(showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
                     Text("SwiftUI View hosted by UIKit **`UISheetPresentationController`**")
-                        .font(.title3)
+                        .font(verticalSizeClass == .regular ? .headline : .title3)
                         .multilineTextAlignment(.center)
                     Image("swiftui-logo")
                         .resizable()
+                        .frame(width: 140, height: 140)
                         .aspectRatio(contentMode: .fit)
                     ForEach(names, id: \.self) { name in
                         Text(name)
@@ -141,15 +143,22 @@ struct BottomSheetView: View {
                 }
                 .padding(.top, 40)
             }
+            Divider()
+                .frame(height: 0.5)
+                .background(.gray)
+                .shadow(color: .gray, radius: 12)
+                .padding(.bottom, 2)
             Button(action: dismissView) {
                 Text("Dismiss")
                     .font(.title3)
-                    .bold()
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
+                    .padding(10)
             }
-            .padding(.top, 20)
             .background(.blue)
+            .cornerRadius(10)
+            .padding(.horizontal, 20)
+            .padding(.bottom, 10)
         }
     }
 
