@@ -8,11 +8,11 @@
 * `BottomSheetView`: Presented bottom sheet written in SwiftUI 
 * `BottomSheetDetailController`: hosts the SwiftUI View
 
-![Screen Shot 2023-01-26 at 2 11 38 PM](https://user-images.githubusercontent.com/1819208/214928100-6a05c0bc-8fa8-4975-bf83-60dbf048cbf5.png)
+![Screen Shot 2023-01-27 at 4 23 21 PM](https://user-images.githubusercontent.com/1819208/215203281-4c077ba2-e867-41f2-9568-279d335e6387.png)
 
-![Screen Shot 2023-01-26 at 2 11 50 PM](https://user-images.githubusercontent.com/1819208/214928117-a51456d3-a96c-4834-9525-fb1f54bc0a8f.png)
+![Screen Shot 2023-01-27 at 4 20 43 PM](https://user-images.githubusercontent.com/1819208/215203033-d8836e42-22a3-4b34-9eec-f6f27d5a23b0.png)
 
-![Screen Shot 2023-01-26 at 2 12 10 PM](https://user-images.githubusercontent.com/1819208/214928140-8ffe9c92-ec77-4886-9303-01d76ec9168e.png)
+![Screen Shot 2023-01-27 at 4 20 57 PM](https://user-images.githubusercontent.com/1819208/215203053-98c66a43-25d4-40af-9eea-f4684f87bb09.png)
 
 ![Simulator Screen Shot - iPad Pro (11-inch) (4th generation) - 2023-01-27 at 16 16 14](https://user-images.githubusercontent.com/1819208/215202317-fdefde12-45de-42d5-b83f-cba4b2b3ef64.png)
 
