@@ -1,6 +1,10 @@
 # Size Classes, UIKit and SwiftUI
 
-> Note: Built against iOS 15. 
+> Note: Built against iOS 15.
+
+This demo, uses two layouts based on the current size class. 
+* If in the `.compact` size class there is one item per row. 
+* If in the `.regular` size class there are two items per row. 
 
 ### iPad
 
