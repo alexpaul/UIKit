@@ -1,5 +1,7 @@
 # Size Classes, UIKit and SwiftUI
 
+> Note: Built against iOS 15. 
+
 ### iPad
 
 Shows the following: 
