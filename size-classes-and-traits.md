@@ -3,16 +3,16 @@
 ### iPad
 
 Shows the following: 
-* regular
-* compact when in split view
+* `.regular` size class
+* `.compact` size class when in split view
 
 https://github.com/alexpaul/UIKit/assets/1819208/69ad52d0-2fe8-4a19-9170-174ee6533cfe
 
 ### iPhone 15 Pro Max
 
 Shows the following: 
-* compact in portrait
-* regular in landscape
+* `.compact` size in portrait
+* `.regular` size in landscape
 
 https://github.com/alexpaul/UIKit/assets/1819208/6c4a711a-8266-49b4-bd9f-366800a1c69b
 
