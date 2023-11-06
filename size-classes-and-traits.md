@@ -3,8 +3,8 @@
 > Note: Built against iOS 15.
 
 This demo uses two layouts based on the current size class `UIUserInterfaceSizeClass`. 
-* If in the `.compact` size class there is one item per row (or one column). 
-* If in the `.regular` size class there are two items per row (or two columns). 
+* If the `.compact` size class is detected the layout renders one item per row (or one column). 
+* If the `.regular` size class is detected the layout renders two items per row (or two columns). 
 
 ### iPad
 
