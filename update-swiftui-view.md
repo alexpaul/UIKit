@@ -1,6 +1,6 @@
 # Updating a SwiftUI View from a UIKit app
 
-![Screenshot 2023-11-07 at 1 05 08 PM](https://github.com/alexpaul/UIKit/assets/1819208/47fc67f9-a965-4937-af20-c8c574ea27b4)
+![Screenshot 2023-11-07 at 4 04 32 PM](https://github.com/alexpaul/UIKit/assets/1819208/001cd381-c115-4600-867e-b8482be45297)
 
 try? it out
 
@@ -10,10 +10,10 @@ import SwiftUI
 
 // MARK: - SwiftUI Views
 struct SwiftUIView: View {
-    var content: (() -> String)
+    var content: String
 
     var body: some View {
-        Text(content())
+        Text(content)
     }
 }
 
@@ -22,7 +22,7 @@ struct SwiftUIView: View {
 final class UIKitView: UIView {
     private let hostingVC = UIHostingController(
         rootView: SwiftUIView(
-            content: { "Initial SwiftUI Content" }
+            content: "Initial SwiftUI Content"
         )
     )
 
@@ -50,7 +50,7 @@ final class UIKitView: UIView {
         ])
     }
 
-    func updateSwiftUIView(content: @escaping (() -> String)) {
+    func updateSwiftUIView(content: String) {
         hostingVC.rootView.content = content
     }
 }
@@ -68,9 +68,7 @@ final class ViewController: UIViewController {
         super.viewDidLoad()
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
-            self?.uikitView.updateSwiftUIView {
-                "Updated SwiftUI Content"
-            }
+            self?.uikitView.updateSwiftUIView(content: "Updated SwiftUI Content")
         }
     }
 }
