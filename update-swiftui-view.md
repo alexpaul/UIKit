@@ -1,6 +1,6 @@
 # Updating a SwiftUI View from a UIKit app
 
-## Using `ObservableObject`
+## Using `ObservableObject` and `@Published` Property Wrapper
 
 ![Screenshot 2023-11-09 at 7 16 46 PM](https://github.com/alexpaul/UIKit/assets/1819208/da49b4f5-ad5c-4018-a58b-641176b7385d)
 
