@@ -1,6 +1,6 @@
 # Updating a SwiftUI View from a UIKit app
 
-## Using `ObservableObject` and `@Published` Property Wrapper
+## 1. Using `ObservableObject` and `@Published` Property Wrapper
 
 ![Screenshot 2023-11-09 at 7 16 46 PM](https://github.com/alexpaul/UIKit/assets/1819208/da49b4f5-ad5c-4018-a58b-641176b7385d)
 
@@ -83,7 +83,7 @@ final class ViewController: UIViewController {
 
 ***
 
-## Using `rootView`
+## 2. Using `rootView`
 
 ![Screenshot 2023-11-07 at 4 04 32 PM](https://github.com/alexpaul/UIKit/assets/1819208/001cd381-c115-4600-867e-b8482be45297)
 
