@@ -1,4 +1,4 @@
-# Updating a SwiftUI View from a UIKit app
+# Updating a SwiftUI view from a UIKit app
 
 ## 1. Using `ObservableObject` and `@Published` Property Wrapper
 
