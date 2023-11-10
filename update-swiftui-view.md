@@ -2,7 +2,7 @@
 
 ## 1. Using `ObservableObject` and `@Published` Property Wrapper
 
-![Screenshot 2023-11-09 at 7 16 46 PM](https://github.com/alexpaul/UIKit/assets/1819208/da49b4f5-ad5c-4018-a58b-641176b7385d)
+![Screenshot 2023-11-09 at 7 22 31 PM](https://github.com/alexpaul/UIKit/assets/1819208/54e2aea1-c6a7-40e7-a239-3e1f12be87a7)
 
 ```swift
 import UIKit
@@ -18,7 +18,7 @@ final class Content: ObservableObject {
 }
 
 // MARK: - SwiftUI Views
-struct TestResultCard: View {
+struct ImageCard: View {
     @ObservedObject var content: Content
 
     var body: some View {
@@ -37,7 +37,7 @@ final class UIKitView: UIView {
     private var content = Content(imageName: "ocean")
 
     private lazy var hostingVC = UIHostingController(
-        rootView: TestResultCard(
+        rootView: ImageCard(
             content: content
         )
     )
@@ -78,6 +78,10 @@ final class ViewController: UIViewController {
     override func loadView() {
         view = UIKitView()
     }
+}
+
+#Preview {
+    ViewController()
 }
 ```
 
