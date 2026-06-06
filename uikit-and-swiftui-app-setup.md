@@ -25,7 +25,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 ## Root View Controller 
 
 ```swift
-import SwiftUI
-
-class HomeViewController: UIHostingController<HomeView> {}
+class HomeViewController: UIHostingController<HomeView> {
+    @MainActor @preconcurrency override init(rootView: HomeView) {
+        super.init(rootView: rootView)
+    }
+    
+    @MainActor @preconcurrency required dynamic init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
 ```
